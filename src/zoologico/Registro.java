@@ -146,7 +146,7 @@ public class Registro extends javax.swing.JDialog {
             String animal = nombreAnimal.getText();
             int jaula = Integer.parseInt(jaulaDisponible.getText());
             int numAnimales = Integer.parseInt(numeroAnimales.getText());
-            System.out.println("leyendo enter");
+            System.out.println("KeyPressed: Enter");
             nf = new Notificacion(null,true);
             nf.setVisible(true); 
         }

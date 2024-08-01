@@ -12,6 +12,7 @@ public class ZooAndes extends javax.swing.JDialog {
         super(parent, modal);
         initComponents();
         setLocationRelativeTo(null);
+        //26526
     }
 
     @SuppressWarnings("unchecked")
